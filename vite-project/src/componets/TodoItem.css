@@ -1,0 +1,52 @@
+
+.TodoItem {
+    background-color: linear-gradient(135deg, #73687a, #ffffff, #899fb4);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+}
+
+.TodoItem-p{
+    margin: 2.4rem;
+    width: calc(100% - 12rem);
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+}
+
+.TodoItem-p--complete{
+    text-decoration: line-through;
+}
+
+.Icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.8rem;
+    height: 4.8rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Icon-container-check{
+    position: absolute;
+    left: 1.2rem;
+}
+
+
+
+.Icon-container-delete{
+    position: absolute;
+    top: -2.4rem;
+    right: 0;
+}
+
+.Icon-svg{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+

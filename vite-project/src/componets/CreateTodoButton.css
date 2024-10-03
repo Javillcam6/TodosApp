@@ -1,0 +1,41 @@
+:root{
+    --primary-text-color: rgb(240, 240, 240);
+    --primary-font:'GFS Didot, serif';
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.CreateTodoButton {
+    background-color: #ca9911;
+    box-shadow: 0px 5px 25px rgba(250, 247, 97, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6.4rem;
+    width: 6.4rem; 
+    color: var(--primary-text-color);
+    font-size: 50px;
+    border: none;
+    border-radius: 50%; 
+    cursor: pointer;
+    position: fixed; 
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    transform: rotate(0);
+    transition: .3s ease;
+    z-index: 1;
+}
+
+
+.CreateTodoButton:hover{
+    transform: rotate(224deg);
+}
